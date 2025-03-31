@@ -11,7 +11,7 @@ A interactive project exploring the biodiversity of belly buttons using **JavaSc
 - [Installation](#installation)
 - [Deployment](#deployment)
 - [Methodology](#methodology)
-- [Resouces](#resources)
+- [Resources](#resources)
 
 ## Features
 **samples.json:** Contains demographic information and sample data for all of the test subjects, including bacteria culture data.
@@ -36,6 +36,9 @@ This app is deployed on **GitHub Pages**, making it accessible from any web brow
 3. Scroll down to the GitHub Pages section.
 4. Select the branch you'd like to deploy (typically main or master).
 5. After a few moments, your app will be available at https://<username>.github.io/<repository-name>/.
+
+**Dashboard Example:**
+![Dashboard Example](https://github.com/Angelinamurdock/belly-button-challenge/issues/1#issue-2961608621)
 
 ## Methodology
 ### Data Processing and Visualization
