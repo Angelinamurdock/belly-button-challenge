@@ -19,7 +19,7 @@ A interactive project exploring the biodiversity of belly buttons using **JavaSc
 **app.js:**
 - Implements a bar chart to visualize data of the top 10 bacteria cultures found in each test subject.
 - Implements a bubble chart for visualizing data of the number of bacteria cultures per sample by OTU ID.
-- Loop through metadata to get the demographic info for each imdividual and populates it into a panel.
+- Loop through metadata to get the demographic info for each individual and populates it into a panel.
 
 **index.html:** The main HTML file that connects all components of the app.
 
@@ -38,7 +38,7 @@ This app is deployed on **GitHub Pages**, making it accessible from any web brow
 5. After a few moments, your app will be available at https://<username>.github.io/<repository-name>/.
 
 **Dashboard Example:**
-![Dashboard Example](https://github.com/Angelinamurdock/belly-button-challenge/issues/1#issue-2961608621)
+![Dashboard Example](dashboard_example/dashboard_image.png)
 
 ## Methodology
 ### Data Processing and Visualization
