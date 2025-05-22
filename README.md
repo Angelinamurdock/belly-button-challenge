@@ -10,24 +10,26 @@
 - [Resources](#resources)
 
 ## Overview
-A interactive project exploring the biodiversity of belly buttons using **JavaScript**. This app allows users to visualize different species of bacteria found in the belly buttons of various test subjects, displayed using data visualizations and interactive charts.
+An interactive dashboard built with **JavaScript** to explore the biodiversity of belly buttons. Users can select individual test subjects to view the types and quantities of bacteria present in their samples. The app features dynamic charts and panels that visualize microbial data and demographic information in an engaging and informative way.
 
 ### Dashboard Example:
 
 ![Dashboard Example](dashboard_example/dashboard_image.png)
 
 ## Deployment
-This app is deployed on **GitHub Pages**: [Click here to deploy the app](https://angelinamurdock.github.io/belly-button-challenge/)
+This app is deployed on **GitHub Pages**: 
+    
+- [Click here to deploy the app](https://angelinamurdock.github.io/belly-button-challenge/)
 
 ## Features
-`samples.json`: Contains demographic information and sample data for all of the test subjects, including bacteria culture data.
+`samples.json`: Stores demographic data and bacterial culture samples for each test subject.
 
 `app.js`:
-- Implements a bar chart to visualize data of the top 10 bacteria cultures found in each test subject.
-- Implements a bubble chart for visualizing data of the number of bacteria cultures per sample by OTU ID.
-- Loop through metadata to get the demographic info for each individual and populates it into a panel.
+- Builds a bar chart showing the top 10 bacteria cultures per subject
+- Creates a bubble chart to visualize bacterial presence by OTU ID
+- Displays demographic info by dynamically updating metadata panel
 
-`index.html`: The main HTML file that connects all components of the app.
+`index.html`: Serves as the main interface, linking the visualizations and scripts together.
 
 ## Methodology
 ### Data Processing and Visualization
@@ -38,7 +40,7 @@ This app is deployed on **GitHub Pages**: [Click here to deploy the app](https:/
 **Plotly Data Visualizations**: The app uses Plotly to create interactive bar and bubble charts. Plotly allows users to interact with the data points, making the visualizations both informative and engaging.
 
 ## Resources
-* **Belly Button Biodiversity dataset:** https://robdunnlab.com/projects/belly-button-biodiversity/ 
-* **Plotly Documentation:** https://plotly.com/javascript/ 
+* [Belly Button Biodiversity Dataset](https://robdunnlab.com/projects/belly-button-biodiversity/) 
+* [Plotly Documentation](https://plotly.com/javascript/)
 * **DU Bootcamp Module 14:** Utilized challenge files and class materials from the bootcamp.
 * **ChatGPT:** Assisted with code explanations and debugging.
