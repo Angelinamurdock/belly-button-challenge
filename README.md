@@ -1,6 +1,6 @@
 # JavaScript Belly Button Biodiversity App
 **Creator**: Angelina Murdock  
-**Date**: March 2025
+**Date**: April 2025
 
 ## Table of contents
 - [Overview](#overview)
